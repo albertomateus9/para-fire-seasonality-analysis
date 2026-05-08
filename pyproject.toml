@@ -1,0 +1,11 @@
+[project]
+name = "para-fire-seasonality-analysis"
+version = "0.1.0"
+description = "Fire seasonality lab for Para with monthly aggregation, rainfall comparison, and correlation."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Alberto Mateus P. da Gama" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
